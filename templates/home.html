@@ -4,6 +4,7 @@
 <h2>Me llamo {{name}}</h2>
 
 <form action="add">
+    {% csrf_token %}
     First Number: <input type="text" name="num1">
     Second Number: <input type="text" name="num2">
     <input type="submit">
