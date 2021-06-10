@@ -3,7 +3,7 @@
 <h1>Hola, Mundo!!!!</h1>
 <h2>Me llamo {{name}}</h2>
 
-<form action="add">
+<form action="add" method="POST">
     {% csrf_token %}
     First Number: <input type="text" name="num1">
     Second Number: <input type="text" name="num2">
